@@ -306,3 +306,22 @@ enable_progressbar: true
 enable_video_embedding: false 
 
 # 后续省略的 Library versions 与获取外部 JSON data 部分不需要修改，保持原样即可
+# -----------------------------------------------------------------------------
+# 第三方库配置（必须保留，不能删除或留空）
+# -----------------------------------------------------------------------------
+third_party_libraries:
+  download: false
+  bootstrap-table:
+    version: "1.22.4"
+    url:
+      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
+      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
+  jquery:
+    version: "3.6.0"
+    url:
+      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+  mathjax:
+    version: "3.2.2"
+    url:
+      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+# 注意：即使你不需要其他库，至少保留上面这几个基本的，否则插件会报错
