@@ -19,7 +19,10 @@ baseurl: "" # 作为个人根目录主页，这里必须留空，否则网站样
 last_updated: true 
 impressum_path: 
 back_to_top: true 
-
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
