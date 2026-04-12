@@ -14,7 +14,7 @@ lang: en # 默认英文学术风，如果你想全中文可以改为 zh-CN
 icon: 🌌 # 配合你的 Galaxy 主题，把图标改成了星系
 
 # 【极其重要】域名设置！
-url: https://Galaxy-Yuhang.github.io # 请将 Galaxy-Yuhang 替换为你真实的 GitHub 用户名
+url: https://galaxy-yh.github.io # 请将 Galaxy-Yuhang 替换为你真实的 GitHub 用户名
 baseurl: "" # 作为个人根目录主页，这里必须留空，否则网站样式会全部丢失！
 last_updated: true 
 impressum_path: 
