@@ -49,5 +49,3 @@ jobs:
         id: pages_deploy
         uses: actions/deploy-pages@v4
 
-        id: pages_deploy
-        uses: actions/deploy-pages@v4
