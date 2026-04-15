@@ -405,6 +405,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2024-the-golden-age/";
+            },},{id: "books-intimate-relationships",
+          title: 'Intimate Relationships',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2025-intimate-relationships/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
