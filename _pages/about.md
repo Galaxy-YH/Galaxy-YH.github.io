@@ -14,7 +14,7 @@ profile:
     <p>Changsha, Hunan, China</p>
 
 selected_papers: false
-social: true
+social: false
 ---
 
 Hi there 👋👋！
