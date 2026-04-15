@@ -400,7 +400,12 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
+      },{id: "books-the-golden-age-黄金时代",
+          title: 'The Golden Age (黄金时代)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2024-the-golden-age/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
