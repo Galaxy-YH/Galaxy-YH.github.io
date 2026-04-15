@@ -30,8 +30,8 @@ I am broadly interested in:
 
 Previously, I worked on recommendation and health-intelligence related projects with a focus on both **algorithm design** and **engineering implementation**.
 
-My academic background includes strong coursework in mathematics, statistics, optimization, databases, machine learning, and big data analytics.  
-I ranked at the top level in my major (as shown in resume), with GPA **93.79/100**, and obtained **CET-6: 557**.
+My academic background includes strong coursework in mathematics, statistics,  machine learning, and big data analytics.  
+I ranked **1/54** in my major, and obtained a CET-6 score of **557**.
 
 I am actively seeking opportunities for research collaboration and internships related to the above topics.  
 Please feel free to contact me via email.
@@ -55,7 +55,7 @@ Please feel free to contact me via email.
 - Proposed a dual-side semantic injection strategy for LightGCN under sparse interaction settings.
 - Incorporated semantic signals into user-item representation propagation.
 - Built training/evaluation pipeline with PyTorch and performed experiments on MovieLens-like benchmarks.
-- Improved key recommendation metrics such as **Recall@20** and **NDCG@20** (per resume summary).
+- Improved key recommendation metrics such as **Recall@20** and **NDCG@20** .
 
 ### 2. Personalized Health Management Platform based on Knowledge Graph and Multi-task Learning
 **Role:** Team Leader  
@@ -73,18 +73,18 @@ Please feel free to contact me via email.
 - **Data & ML:** Pandas, scikit-learn, Scrapy
 - **Deep Learning:** PyTorch
 - **Graph Learning:** PyG / DGL, graph modeling and training
-- **Modeling & Analytics:** AHP, PCA, regression analysis, forecasting and optimization
+- **Modeling & Analytics:** statistical inference, hypothesis testing, regression modeling, multivariate statistics, and time-series analysis
 
 ---
 
 ## 🏅 Honors and Awards
 
-- National Scholarship (as listed in resume)
+- National Scholarship 
 - Multiple awards in competitions related to mathematical modeling and innovation practice
 
 ---
 
 ## 📫 Contact
 
-- **Email:** yuhangsun008@gmail.com  
+- **Email:** [yuhangsun008@gmail.com](mailto:yuhangsun008@gmail.com) 
 - **GitHub:** [https://github.com/Galaxy-YH](https://github.com/Galaxy-YH)
