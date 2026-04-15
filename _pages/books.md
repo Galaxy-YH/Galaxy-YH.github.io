@@ -12,28 +12,3 @@ collection: books
 
 ## Books that I am reading, have read, or will read
 
-### **Deep Learning on Graphs**
-* **Author:** Yao Ma, Jiliang Tang
-* **Status:** 📖 Reading
-* **Tags:** Graph Neural Networks, Machine Learning, Representation Learning
-
----
-
-### **Mostly Harmless Econometrics: An Empiricist's Companion**
-* **Author:** Joshua D. Angrist, Jörn-Steffen Pischke
-* **Status:** ✅ Read
-* **Tags:** Econometrics, Causal Inference, Quantitative Analysis
-
----
-
-### **Intimate Relationships *
-* **Author:** Rowland S. Miller
-* **Status:** 📖 Reading
-* **Tags:** Social Psychology, Personal Growth, Human Behavior
-
----
-
-### **The Golden Age (黄金时代)**
-* **Author:** 王小波
-* **Status:** ✅ Read
-* **Tags:** Literature, Intellectual Freedom, Logic
