@@ -405,6 +405,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2024-the-golden-age/";
+            },},{id: "books-deep-learning-on-graphs",
+          title: 'Deep Learning on Graphs',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2025-deep-learning-on-graphs/";
             },},{id: "books-intimate-relationships",
           title: 'Intimate Relationships',
           description: "",
