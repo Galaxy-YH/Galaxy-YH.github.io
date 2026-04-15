@@ -1,3 +1,4 @@
+<div class="about-content">
 ---
 layout: about
 title: about
@@ -88,3 +89,4 @@ Please feel free to contact me via email.
 
 - **Email:** [yuhangsun008@gmail.com](mailto:yuhangsun008@gmail.com) 
 - **GitHub:** [https://github.com/Galaxy-YH](https://github.com/Galaxy-YH)
+</div>
