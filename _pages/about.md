@@ -1,4 +1,3 @@
-<div class="about-content">
 ---
 layout: about
 title: about
@@ -17,7 +16,7 @@ profile:
 selected_papers: false
 social: false
 ---
-
+<div class="about-content">
 Hi there 👋👋！
 
 My name is **Yuhang Sun (孙宇航)**. I am an undergraduate student at **Central South University (CSU)**, majoring in **Information Management and Information Systems** (2023.09 - 2027.06).
