@@ -1,0 +1,60 @@
+/* 全局字体（接近截图风格） */
+body {
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.75;
+  color: #2f3640;
+}
+
+/* about页面正文更清爽 */
+.about-content p,
+.about-content li {
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: #3b4252;
+}
+
+/* 标题层级 */
+.about-content h1,
+.about-content h2,
+.about-content h3 {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  color: #1f2937;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.about-content h3 {
+  font-size: 1.35rem;
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+/* 分割线更柔和 */
+.about-content hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 1.4rem 0;
+}
+
+/* 列表间距 */
+.about-content ul li {
+  margin-bottom: 0.35rem;
+}
+
+/* 链接风格 */
+.about-content a {
+  color: #1d4ed8;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(29, 78, 216, 0.25);
+}
+.about-content a:hover {
+  color: #1e40af;
+  border-bottom-color: rgba(30, 64, 175, 0.45);
+}
