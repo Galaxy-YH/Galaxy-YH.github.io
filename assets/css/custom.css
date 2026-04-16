@@ -1,82 +1,46 @@
-/* ---- 字体方案：更饱满、更适合中英文混排（改进版） ---- */
-/* 保留你喜欢的字体气质，同时避免全局字重影响 bookshelf 等组件 */
+/* ---- 字体方案：更饱满、更适合中英文混排 ---- */
+/* 中文优先用系统黑体，英文字体用 Inter，整体观感不会发飘 */
 
 html, body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
   text-rendering: optimizeLegibility;
 }
 
-/* 全局：只统一字体族和基础文字色，不做过重字重 */
 body {
   font-family: "Inter", "SF Pro Text", "PingFang SC", "Hiragino Sans GB",
                "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif !important;
-  font-weight: 400 !important;
-  color: #434a52;
+  font-weight: 500 !important;      /* 原来太瘦，正文直接提到 500 */
+  line-height: 1.85;
+  letter-spacing: 0.01em;
+}
+
+/* 标题再加粗一点 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif !important;
+  font-weight: 700 !important;
   letter-spacing: 0.005em;
 }
 
-/* =========================
-   About / 正文区域（重点优化）
-   ========================= */
-.post .post-content {
-  font-size: 1.06rem;      /* 避免过大字号破坏布局 */
-  line-height: 1.82;
-  font-weight: 450;        /* 比默认稍厚，但不发黑 */
+/* 段落和��表保持可读性 */
+p, li {
+  font-weight: 500;
 }
 
-/* 标题略厚 */
-.post .post-content h1,
-.post .post-content h2,
-.post .post-content h3,
-.post .post-content h4,
-.post .post-content h5,
-.post .post-content h6 {
-  font-family: "Inter", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif !important;
-  font-weight: 650 !important;
-  letter-spacing: 0.003em;
-  color: #3f464d;
+/* 强调文本更明显 */
+strong, b {
+  font-weight: 700 !important;
 }
 
-/* 段落和列表仅在正文区加厚，避免影响卡片/标签 */
-.post .post-content p,
-.post .post-content li {
-  font-weight: 450;
-}
-
-/* 强调字：从 700 降到 600，避免“太重” */
-.post .post-content strong,
-.post .post-content b {
-  font-weight: 600 !important;
-}
-
-/* 侧边 profile 信息可稍厚一点 */
+/* 侧边 profile 那几行文字通常偏细，单独加粗 */
 .profile .more-info p,
 .profile .address,
 .profile .profile-info {
-  font-weight: 550 !important;
+  font-weight: 600 !important;
 }
 
 /* 代码字体 */
 code, pre {
   font-family: "JetBrains Mono", "Cascadia Mono", "Consolas", monospace !important;
   font-weight: 500;
-}
-
-/* =========================
-   bookshelf 页面修正（防止标签不匹配）
-   ========================= */
-.bookshelf .badge,
-.bookshelf .tag,
-.bookshelf [class*="status"] {
-  font-size: 0.78rem !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.02em;
-}
-
-/* 若 bookshelf 标题显得太重，可微调 */
-.bookshelf h1,
-.bookshelf h2,
-.bookshelf h3 {
-  font-weight: 600 !important;
 }
