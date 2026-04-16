@@ -18,7 +18,7 @@ body {
 /* 标题再加粗一点 */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Inter", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif !important;
-  font-weight: 700 !important;
+  font-weight: 600 !important;
   letter-spacing: 0.005em;
 }
 
@@ -29,7 +29,7 @@ p, li {
 
 /* 强调文本更明显 */
 strong, b {
-  font-weight: 700 !important;
+  font-weight: 600 !important;
 }
 
 /* 侧边 profile 那几行文字通常偏细，单独加粗 */
