@@ -16,7 +16,6 @@ profile:
 selected_papers: false
 social: false
 ---
-<div class="about-content">
 Hi there 👋👋！
 
 My name is **Yuhang Sun (孙宇航)**. I am an undergraduate student at **Central South University (CSU)**, majoring in **Information Management and Information Systems** (2023.09 - 2027.06).
@@ -88,4 +87,3 @@ Please feel free to contact me via email.
 
 - **Email:** [yuhangsun008@gmail.com](mailto:yuhangsun008@gmail.com) 
 - **GitHub:** [https://github.com/Galaxy-YH](https://github.com/Galaxy-YH)
-</div>
