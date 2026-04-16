@@ -6,7 +6,7 @@ permalink: /
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: ture
   more_info: >
     <p>Yuhang Sun (孙宇航)</p>
     <p>Central South University</p>
