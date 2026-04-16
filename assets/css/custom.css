@@ -1,60 +1,46 @@
-/* 全局字体（接近截图风格） */
+/* ---- 字体方案：更饱满、更适合中英文混排 ---- */
+/* 中文优先用系统黑体，英文字体用 Inter，整体观感不会发飘 */
+
+html, body {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+}
+
 body {
-  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 20px;
-  line-height: 1.75;
-  color: #2f3640;
+  font-family: "Inter", "SF Pro Text", "PingFang SC", "Hiragino Sans GB",
+               "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif !important;
+  font-weight: 500 !important;      /* 原来太瘦，正文直接提到 500 */
+  line-height: 1.85;
+  letter-spacing: 0.01em;
 }
 
-/* about页面正文更清爽 */
-.about-content p,
-.about-content li {
-  font-size: 1.08rem;
-  line-height: 1.8;
-  color: #3b4252;
+/* 标题再加粗一点 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.005em;
 }
 
-/* 标题层级 */
-.about-content h1,
-.about-content h2,
-.about-content h3 {
-  font-family: "Inter", "Segoe UI", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.2px;
-  color: #1f2937;
+/* 段落和��表保持可读性 */
+p, li {
+  font-weight: 500;
 }
 
-.about-content h2 {
-  font-size: 2rem;
-  margin-top: 1.2rem;
-  margin-bottom: 0.8rem;
+/* 强调文本更明显 */
+strong, b {
+  font-weight: 700 !important;
 }
 
-.about-content h3 {
-  font-size: 1.35rem;
-  margin-top: 1rem;
-  margin-bottom: 0.6rem;
+/* 侧边 profile 那几行文字通常偏细，单独加粗 */
+.profile .more-info p,
+.profile .address,
+.profile .profile-info {
+  font-weight: 600 !important;
 }
 
-/* 分割线更柔和 */
-.about-content hr {
-  border: none;
-  border-top: 1px solid #e5e7eb;
-  margin: 1.4rem 0;
-}
-
-/* 列表间距 */
-.about-content ul li {
-  margin-bottom: 0.35rem;
-}
-
-/* 链接风格 */
-.about-content a {
-  color: #1d4ed8;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(29, 78, 216, 0.25);
-}
-.about-content a:hover {
-  color: #1e40af;
-  border-bottom-color: rgba(30, 64, 175, 0.45);
+/* 代码字体 */
+code, pre {
+  font-family: "JetBrains Mono", "Cascadia Mono", "Consolas", monospace !important;
+  font-weight: 500;
 }
