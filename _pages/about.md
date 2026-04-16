@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate at Central South University | Recommender Systems · GNN · Knowledge Graph
 
 profile:
   align: left
